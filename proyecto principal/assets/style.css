@@ -1,17 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px
+}
+
 header {
-    background-color: #222933
+    background-color: #222933;
+    display: flex;
 }
 
 .tituloHeader span {
     color: #FFFFFF;
     font-size: 15.4px;
+    margin: 0px;
 }
 
 .tituloHeader {
     color:#F04E4F;
     font-size: 15.4px;
+    margin: 0px;
+    text-decoration: none;
 }
 
 .itemsHeader {
     list-style-type: none;
+    display: flex;
+
+}
+
+.itemsHeader a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.itemsHeader li {
+    margin: 0 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto
+}
+
+nav ul li a:hover {
+    color:#F04E4F
 }
