@@ -68,3 +68,18 @@ nav ul li a:hover {
     background-color: #30475E;
     padding-top: 50px;
 }
+
+.imgLogo {
+    width: 307.8px;
+    height: 307.8px;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.introduccionTxt {
+    color: #F04E4F;
+}
+
+.introduccionTxt span {
+    color: #FFFFFF;
+}
