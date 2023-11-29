@@ -67,6 +67,7 @@ nav ul li a:hover {
 .divHome {
     background-color: #30475E;
     padding-top: 50px;
+    display: flex
 }
 
 .imgLogo {
@@ -78,8 +79,10 @@ nav ul li a:hover {
 
 .introduccionTxt {
     color: #F04E4F;
+    font-size: 28px;
 }
 
 .introduccionTxt span {
     color: #FFFFFF;
+    font-size: 28px;
 }
