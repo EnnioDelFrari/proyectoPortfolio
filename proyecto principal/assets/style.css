@@ -146,11 +146,13 @@ footer {
 .redSocial {
     color: #30475E;
     font-size: 30px;
-    padding: 300px 700px 80px 0px;
+    padding: 300px 200px 80px 0px;
 }
 
 .itemsRedes li {
     list-style-type: none;
+    display:inline-block;
+    margin-right: 10px;
 }
 
 .logoFooter {
