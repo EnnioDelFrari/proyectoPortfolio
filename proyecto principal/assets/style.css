@@ -28,7 +28,6 @@ header {
     list-style-type: none;
     display: flex;
     font-size: 28px;
-
 }
 
 .itemsHeader a {
@@ -46,7 +45,7 @@ nav {
     margin: 0 auto
 }
 
-nav ul li a:hover {
+.itemsHeader a:hover {
     color:#F04E4F
 }
 
@@ -71,11 +70,7 @@ nav ul li a:hover {
 .divHome2 {
     background-color: #30475E;
     padding-top: 50px;
-<<<<<<< HEAD
-    display: flex
-=======
     display: flex;
->>>>>>> 7ba4233ccd25ee3daa98f7ee0f69b40cdc0066e5
 }
 
 .imgLogo {
@@ -86,13 +81,9 @@ nav ul li a:hover {
 
 .introduccionTxt {
     color: #F04E4F;
-<<<<<<< HEAD
-    font-size: 28px;
-=======
-    padding-left: 80px;
+    padding-left: 250px;
     font-size: 28px;
     flex: 1;
->>>>>>> 7ba4233ccd25ee3daa98f7ee0f69b40cdc0066e5
 }
 
 .subrayado {
@@ -101,15 +92,13 @@ nav ul li a:hover {
 
 .myName {
     color: #FFFFFF;
-<<<<<<< HEAD
-    font-size: 28px;
-=======
 }
 
 
 .listaHome li{
     color: #FFFFFF;
-    margin: 0px 0px 30px 50px
+    margin: 0px 0px 30px 230px;
+    font-size: 28px;
 }
 
 .contenedorTxt {
@@ -117,6 +106,54 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #F04E4F;
->>>>>>> 7ba4233ccd25ee3daa98f7ee0f69b40cdc0066e5
+    background-color:#F04E4F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuFooter {
+    padding: 10px 0px 0px 100px;
+    color: #30475E;
+    font-size: 30px;
+}
+
+.itemsFooter {
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+.itemsFooter a {
+    text-decoration: none;
+    color: #30475E;
+    font-size: 25px;
+}
+
+.itemsFooter li {
+    padding-bottom: 30px;
+}
+
+.eMail {
+    padding: 100px 100px 0px 0px;
+    color: #30475E;
+    font-size: 30px;
+}
+
+.gMail {
+    color: #30475E;
+    font-size: 30px;
+}
+
+.redSocial {
+    color: #30475E;
+    font-size: 30px;
+    padding: 300px 700px 80px 0px;
+}
+
+.itemsRedes li {
+    list-style-type: none;
+}
+
+.logoFooter {
+    width: 60px;
+    height: 60px;
 }
