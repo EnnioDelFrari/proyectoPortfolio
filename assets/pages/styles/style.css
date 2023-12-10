@@ -1,16 +1,16 @@
 @font-face {
     font-family: BarlowSemiCondensed Regular;
-    src: url('/assets/pages/styles/fonts/BarlowSemiCondensed/BarlowSemiCondensed-Regular.ttf') format('truetype');
+    src: url('fonts/BarlowSemiCondensed/BarlowSemiCondensed-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: YanoneKaffeesatz;
-    src: url('/assets/pages/styles/fonts/YanoneKaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts/YanoneKaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: Sanchez Regular;
-    src: url('/assets/pages/styles/fonts/Sanchez/Sanchez-Regular.ttf') format('truetype');
+    src: url('fonts/Sanchez/Sanchez-Regular.ttf') format('truetype');
 }
 
 body {
