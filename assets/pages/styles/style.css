@@ -1,3 +1,18 @@
+@font-face {
+    font-family: BarlowSemiCondensed Regular;
+    src: url('/assets/pages/styles/fonts/BarlowSemiCondensed/BarlowSemiCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: YanoneKaffeesatz;
+    src: url('/assets/pages/styles/fonts/YanoneKaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Sanchez Regular;
+    src: url('/assets/pages/styles/fonts/Sanchez/Sanchez-Regular.ttf');
+}
+
 body {
     margin: 0px;
     padding: 0px
@@ -14,6 +29,11 @@ header {
     font-size: 15.4px;
     margin: 0px;
     padding-left: 15px;
+    font-family: Sanchez Regular;
+}
+
+.tituloHeader span:hover {
+    color: #F04E4F;
 }
 
 .tituloHeader {
@@ -22,12 +42,15 @@ header {
     margin: 0px;
     text-decoration: none;
     padding-left: 15px;
+    font-family: Sanchez Regular;
 }
+
 
 .itemsHeader {
     list-style-type: none;
     display: flex;
     font-size: 28px;
+    font-family: YanoneKaffeesatz;
 }
 
 .itemsHeader a {
@@ -46,14 +69,18 @@ nav {
 }
 
 .itemsHeader a:hover {
-    color:#F04E4F
+    color:#F04E4F;
+    text-decoration: underline;
 }
+
+/*Aquí termina el css del header*/
 
 .tituloHome span {
     color: #FFFFFF;
     margin: 0;
-    padding-left: 15px;
+    padding-left: 40px;
     font-size: 57.4px;
+    font-family: Sanchez Regular;
 }
 
 .tituloHome {
@@ -61,6 +88,7 @@ nav {
     margin: 0;
     padding: 40px 0px 0px 40px;
     font-size: 57.4px;
+    font-family: Sanchez Regular;
 }
 
 .divHome1 {
@@ -69,21 +97,78 @@ nav {
 
 .divHome2 {
     background-color: #30475E;
-    padding-top: 50px;
     display: flex;
 }
 
+.contenedorImg {
+    position: relative;
+}
+
 .imgLogo {
-    width: 307.8px;
-    height: 307.8px;
-    padding-left: 100px;
+    width: 500px;
+    height: 500px;
+    padding-bottom: 70px;
+    padding-left: 53px;
+}
+
+.redesHome {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+.redesHome li {
+    list-style-type: none;
+    display:inline-block;
+    padding-right: 20px;
+}
+
+.redesHome a { 
+    transition: transform 0.3s ease-in-out;
+}
+
+#circle-red:hover {
+    transform: scale(0.9,0.9);
+}
+
+.facebook {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 75px;
+}
+
+.instagram {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 32px;
+}
+
+.gmail {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.whatsapp {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 32px;
+}
+
+.github {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 75px;
 }
 
 .introduccionTxt {
     color: #F04E4F;
-    padding-left: 250px;
+    padding-left: 100px;
     font-size: 28px;
     flex: 1;
+    font-family: YanoneKaffeesatz;
 }
 
 .subrayado {
@@ -92,13 +177,15 @@ nav {
 
 .myName {
     color: #FFFFFF;
+    font-family: YanoneKaffeesatz;
 }
 
 
 .listaHome li{
     color: #FFFFFF;
-    margin: 0px 0px 30px 230px;
+    margin: 0px 0px 30px 100px;
     font-size: 28px;
+    font-family: BarlowSemiCondensed Regular;
 }
 
 .contenedorTxt {
@@ -112,14 +199,16 @@ footer {
 }
 
 .menuFooter {
-    padding: 10px 0px 0px 100px;
+    padding: 100px 0px 0px 50px;
     color: #30475E;
     font-size: 30px;
+    font-family: YanoneKaffeesatz;
 }
 
 .itemsFooter {
     list-style-type: none;
-    padding-left: 100px;
+    padding-left: 50px;
+    font-family: YanoneKaffeesatz;
 }
 
 .itemsFooter a {
@@ -140,17 +229,20 @@ footer {
     padding: 100px 100px 0px 0px;
     color: #30475E;
     font-size: 30px;
+    font-family: YanoneKaffeesatz;
 }
 
 .gMail {
     color: #30475E;
     font-size: 30px;
+    font-family: YanoneKaffeesatz;
 }
 
 .redSocial {
     color: #30475E;
     font-size: 30px;
-    padding: 300px 200px 80px 0px;
+    padding: 300px 200px 25px 40px;
+    font-family: YanoneKaffeesatz;
 }
 
 .itemsRedes li {
@@ -159,7 +251,35 @@ footer {
     margin-right: 10px;
 }
 
+.itemsRedes a {
+    transition: transform 0.3s ease-in-out;
+}
+
 .logoFooter {
     width: 60px;
     height: 60px;
 }
+
+.logoFooter:hover {
+    transform: scale(0.9,0.9);
+}
+
+.edwFooter {
+    width: 300px;
+}
+
+.tituloFooter {
+    color:#30475E;
+    font-size: 30px;
+    margin: 0px;
+    text-decoration: none;
+    padding-left: 65px;
+    font-family: YanoneKaffeesatz;
+}
+
+.logoEDW {
+    display: flex;
+    flex-direction: column;
+}
+
+
