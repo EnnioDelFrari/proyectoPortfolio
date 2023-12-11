@@ -13,6 +13,15 @@
     src: url('fonts/Sanchez/Sanchez-Regular.ttf') format('truetype');
 }
 
+/*Diseño Mobile*/
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+
+
 body {
     margin: 0px;
     padding: 0px
@@ -58,17 +67,439 @@ header {
     color: #FFFFFF;
 }
 
+footer {
+    background-color:#F04E4F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuFooter {
+    padding: 100px 0px 0px 50px;
+    color: #30475E;
+    font-size: 30px;
+    font-family: YanoneKaffeesatz;
+}
+
+.itemsFooter {
+    list-style-type: none;
+    padding-left: 50px;
+    font-family: YanoneKaffeesatz;
+}
+
+.itemsFooter a {
+    text-decoration: none;
+    color: #30475E;
+    font-size: 25px;
+}
+
+.itemsFooter li {
+    padding-bottom: 30px;
+}
+
+.itemsFooter a:hover {
+    color:#FFFFFF;
+}
+
+.eMail {
+    padding: 100px 100px 0px 0px;
+    color: #30475E;
+    font-size: 30px;
+    font-family: YanoneKaffeesatz;
+}
+
+.gMail {
+    color: #30475E;
+    font-size: 30px;
+    font-family: YanoneKaffeesatz;
+}
+
+.redSocial {
+    color: #30475E;
+    font-size: 30px;
+    padding: 300px 200px 25px 40px;
+    font-family: YanoneKaffeesatz;
+}
+
+.itemsRedes li {
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.itemsRedes a {
+    transition: transform 0.3s ease-in-out;
+}
+
+.logoFooter {
+    width: 60px;
+    height: 60px;
+}
+
+.logoFooter:hover {
+    transform: scale(0.9,0.9);
+}
+
+.edwFooter {
+    width: 300px;
+}
+
+.tituloFooter {
+    color:#30475E;
+    font-size: 30px;
+    margin: 0px;
+    text-decoration: none;
+    padding-left: 65px;
+    font-family: YanoneKaffeesatz;
+}
+
+.logoEDW {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:576px) {
+
 .itemsHeader li {
     margin: 0 50px;
 }
 
+}
 nav {
     display: flex;
     justify-content: center;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .itemsHeader a:hover {
     color:#F04E4F;
     text-decoration: underline;
+}
+
+/*Aquí empieza el css del contenido*/
+
+.tituloHome {
+    color: #F04E4F;
+    margin: 0;
+    padding: 40px 0px 0px 40px;
+    font-size: 57.4px;
+    font-family: Sanchez Regular;
+}
+
+.divContent1 {
+    background-color: #30475E;
+}
+
+.divContent2{
+    background-color: #30475E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.subtitulo {
+    color: #F04E4F;
+    padding-left: 40px;
+    font-size: 28px;
+    flex: 1;
+    font-family: YanoneKaffeesatz;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.listaContent {
+    list-style-type: none;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: BarlowSemiCondensed Regular;
+    margin:0;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apartado1 {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: BarlowSemiCondensed Regular;
+    padding-top: 30px;
+    padding-left: 40px;
+    margin: 0;
+}
+
+.listaApartado1 {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: BarlowSemiCondensed Regular;
+    margin:0;
+    padding-top: 30px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.github {
+    width: 140px;
+    height: 140px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.git {
+    width: 335px;
+    height: 140px;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.apartado2 {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: BarlowSemiCondensed Regular;
+    padding-top: 105px;
+    margin: 0;
+}
+
+.listaApartado2 {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: BarlowSemiCondensed Regular;
+    margin:0;
+    padding-top: 30px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.design {
+    width: 400px;
+    padding-bottom: 55px;
+}
+
+.responsive {
+    width: 400px;
+    height: 400px;
+    padding-left: 90px;
+}
+
+.wordpress {
+    width: 175px;
+    height: 175px;
+    top: 10px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+
+.elementor {
+    width: 228px;
+    height: 228px;
+    padding-left: 90px;
+}
+
+.woocomerce {
+    width: 234px;
+    height: 139.8px;
+    padding-left: 40px;
+}
+
+.mercadopago {
+    width: 174px;
+    height: 174px;
+    padding-left: 70px;
+}
+
+.andreani {
+    width: 162.6px;
+    height: 157.2px;
+    padding-left: 70px;
+}
+
+.listaApartado4 {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: BarlowSemiCondensed Regular;
+    margin:0;
+    padding-top: 30px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.paleta {
+    width: 200px;
+    height: 90px;
+    background-color: #FFFFFF;
+    border-radius: 15%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.negro{
+    width: 40px;
+    height: 40px;
+    background-color: #222933;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+}
+
+.azul{
+    width: 40px;
+    height: 40px;
+    background-color: #30475E;
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+}
+
+.rojo{
+    width: 40px;
+    height: 40px;
+    background-color: #F04E4F;
+    border-radius: 50%;
+    position: absolute;
+    left: 140px;
+}
+
+.busqueda {
+    width: 180px;
+    height: 180px;
+    padding-left: 90px;
+}
+
+#dw {
+    display: inline-block;
+}
+
+.buscador {
+    padding-left: 60px;
+}
+
+.carrito {
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+}
+
+.casa {
+    width: 170px;
+    height: 170px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+}
+
+.database1 {
+    width: 200px;
+    height: 200px;
+    padding-top: 70px;
+    padding-left: 200px;
+}
+
+.database2 {
+    width: 200px;
+    height: 200px;
+    padding-left: 90px;
+}
+/*Aquí termina el css del contenido*/
+
+@media screen and (max-width:576px) {
+    header {
+        justify-content: space-between;
+        height: 70px;
+    }
+
+    .abrir-menu {
+        display: block;
+        margin-right: 10px;
+        background: none;
+        border: none;
+    }
+    
+    .cerrar-menu {
+        display: block;
+        background: none;
+        border: none;
+    }
+
+    .navHeader {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color:#F04E4F;
+        padding: 25px;
+        border-bottom-left-radius: 20px;
+        height: 300px;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .itemsHeader {
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    .nav1{
+        padding-bottom: 30px ;
+    }
+
+    .nav2 {
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .itemsHeader li a:hover {
+        color: #30475E;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navFooter {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .eMail {
+        padding-left: 50px;
+        padding-top: 60px;
+    }
+
+    .gMail {
+        padding-left: 50px;
+    }
+
+    .redSocial {
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+
+    .itemsRedes {
+        padding-left: 50px;
+    }
+
+    .logoFooter {
+        width: 35px;
+        height: 35px;
+    }
 }

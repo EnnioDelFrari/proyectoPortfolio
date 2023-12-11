@@ -13,6 +13,15 @@
     src: url('fonts/Sanchez/Sanchez-Regular.ttf') format('truetype');
 }
 
+/*Diseño Mobile*/
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+
+
 body {
     margin: 0px;
     padding: 0px
@@ -58,17 +67,322 @@ header {
     color: #FFFFFF;
 }
 
+@media screen and (min-width:576px) {
+
 .itemsHeader li {
     margin: 0 50px;
 }
 
+}
 nav {
     display: flex;
     justify-content: center;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .itemsHeader a:hover {
     color:#F04E4F;
     text-decoration: underline;
+}
+
+footer {
+    background-color:#F04E4F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuFooter {
+    padding: 100px 0px 0px 50px;
+    color: #30475E;
+    font-size: 30px;
+    font-family: YanoneKaffeesatz;
+}
+
+.itemsFooter {
+    list-style-type: none;
+    padding-left: 50px;
+    font-family: YanoneKaffeesatz;
+}
+
+.itemsFooter a {
+    text-decoration: none;
+    color: #30475E;
+    font-size: 25px;
+}
+
+.itemsFooter li {
+    padding-bottom: 30px;
+}
+
+.itemsFooter a:hover {
+    color:#FFFFFF;
+}
+
+.eMail {
+    padding: 100px 100px 0px 0px;
+    color: #30475E;
+    font-size: 30px;
+    font-family: YanoneKaffeesatz;
+}
+
+.gMail {
+    color: #30475E;
+    font-size: 30px;
+    font-family: YanoneKaffeesatz;
+}
+
+.redSocial {
+    color: #30475E;
+    font-size: 30px;
+    padding: 300px 200px 25px 40px;
+    font-family: YanoneKaffeesatz;
+}
+
+.itemsRedes li {
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.itemsRedes a {
+    transition: transform 0.3s ease-in-out;
+}
+
+.logoFooter {
+    width: 60px;
+    height: 60px;
+}
+
+.logoFooter:hover {
+    transform: scale(0.9,0.9);
+}
+
+.edwFooter {
+    width: 300px;
+}
+
+.tituloFooter {
+    color:#30475E;
+    font-size: 30px;
+    margin: 0px;
+    text-decoration: none;
+    padding-left: 65px;
+    font-family: YanoneKaffeesatz;
+}
+
+.logoEDW {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Aquí empieza el css del contenido*/
+
+.divContent1 {
+    background-color: #30475E;
+}
+
+.titulo1 {
+    color: #F04E4F;
+    margin: 0;
+    padding: 40px 0px 0px 40px;
+    font-size: 57.4px;
+    font-family: Sanchez Regular;
+}
+
+.texto {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: BarlowSemiCondensed Regular;
+    margin:0;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.subtitulo {
+    color: #F04E4F;
+    padding-left: 40px;
+    font-size: 28px;
+    flex: 1;
+    font-family: YanoneKaffeesatz;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.divContent2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.correo {
+    width: 120px;
+    height: 120px;
+    padding-top: 30px;
+    padding-left: 300px;
+}
+
+.contenedor1 {
+    width: 342px;
+    height: 112px;
+    background-color:#F04E4F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 40px;
+    margin-left: 90px;
+}
+
+.textoMail {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: YanoneKaffeesatz;
+}
+
+.itemsRedes1 li {
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.itemsRedes1 a {
+    transition: transform 0.3s ease-in-out;
+}
+
+.itemsRedes1 {
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 400px;
+}
+
+.cont {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contenedor2 {
+    width: 400px;
+    height: 90px;
+    background-color:#F04E4F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 40px;
+    margin-left: 330px;
+    border-bottom: 50px;
+}
+
+.divContent11 {
+    background-color: #30475E;
+    height: 50px;
+}
+
+.cursor-rojo {
+    width: 100px;
+    height: 100px;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+
+/*Aquí termina el css del contenido*/
+
+@media screen and (max-width:576px) {
+    header {
+        justify-content: space-between;
+        height: 70px;
+    }
+
+    .abrir-menu {
+        display: block;
+        margin-right: 10px;
+        background: none;
+        border: none;
+    }
+    
+    .cerrar-menu {
+        display: block;
+        background: none;
+        border: none;
+    }
+
+    .navHeader {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color:#F04E4F;
+        padding: 25px;
+        border-bottom-left-radius: 20px;
+        height: 300px;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .itemsHeader {
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    .nav1{
+        padding-bottom: 30px ;
+    }
+
+    .nav2 {
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .itemsHeader li a:hover {
+        color: #30475E;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navFooter {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .eMail {
+        padding-left: 50px;
+        padding-top: 60px;
+    }
+
+    .gMail {
+        padding-left: 50px;
+    }
+
+    .redSocial {
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+
+    .itemsRedes {
+        padding-left: 50px;
+    }
+
+    .logoFooter {
+        width: 35px;
+        height: 35px;
+    }
 }
