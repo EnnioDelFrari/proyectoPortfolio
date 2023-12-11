@@ -1,3 +1,18 @@
+@font-face {
+    font-family: BarlowSemiCondensed Regular;
+    src: url('fonts/BarlowSemiCondensed/BarlowSemiCondensed-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: YanoneKaffeesatz;
+    src: url('fonts/YanoneKaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Sanchez Regular;
+    src: url('fonts/Sanchez/Sanchez-Regular.ttf') format('truetype');
+}
+
 body {
     margin: 0px;
     padding: 0px
@@ -14,6 +29,11 @@ header {
     font-size: 15.4px;
     margin: 0px;
     padding-left: 15px;
+    font-family: Sanchez Regular;
+}
+
+.tituloHeader span:hover {
+    color: #F04E4F;
 }
 
 .tituloHeader {
@@ -22,12 +42,15 @@ header {
     margin: 0px;
     text-decoration: none;
     padding-left: 15px;
+    font-family: Sanchez Regular;
 }
+
 
 .itemsHeader {
     list-style-type: none;
     display: flex;
     font-size: 28px;
+    font-family: YanoneKaffeesatz;
 }
 
 .itemsHeader a {
@@ -46,5 +69,6 @@ nav {
 }
 
 .itemsHeader a:hover {
-    color:#F04E4F
+    color:#F04E4F;
+    text-decoration: underline;
 }

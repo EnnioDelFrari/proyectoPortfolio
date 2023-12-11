@@ -13,6 +13,15 @@
     src: url('fonts/Sanchez/Sanchez-Regular.ttf') format('truetype');
 }
 
+/*Diseño Mobile*/
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+
+
 body {
     margin: 0px;
     padding: 0px
@@ -58,14 +67,17 @@ header {
     color: #FFFFFF;
 }
 
+@media screen and (min-width:576px) {
+
 .itemsHeader li {
     margin: 0 50px;
 }
 
+}
 nav {
     display: flex;
     justify-content: center;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .itemsHeader a:hover {
@@ -282,4 +294,120 @@ footer {
     flex-direction: column;
 }
 
+@media screen and (max-width:576px) {
+    header {
+        justify-content: space-between;
+        height: 70px;
+    }
 
+    .abrir-menu {
+        display: block;
+        margin-right: 10px;
+        background: none;
+        border: none;
+    }
+    
+    .cerrar-menu {
+        display: block;
+        background: none;
+        border: none;
+    }
+
+    .navHeader {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color:#F04E4F;
+        padding: 25px;
+        border-bottom-left-radius: 20px;
+        height: 300px;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .itemsHeader {
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    .nav1{
+        padding-bottom: 30px ;
+    }
+
+    .nav2 {
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .itemsHeader li a:hover {
+        color: #30475E;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navFooter {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .eMail {
+        padding-left: 50px;
+        padding-top: 60px;
+    }
+
+    .gMail {
+        padding-left: 50px;
+    }
+
+    .redSocial {
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+
+    .itemsRedes {
+        padding-left: 50px;
+    }
+
+    .logoFooter {
+        width: 35px;
+        height: 35px;
+    }
+
+    .imgLogo, .redesHome {
+        display: none;
+    }
+
+    .tituloHome, .tituloHome span { 
+        padding-left: 10px;
+    }
+
+    .introduccionTxt {
+        padding-left: 10px;
+    }
+
+    .listaHome li {
+        margin: 0;
+        padding-bottom: 40px;
+    }
+
+
+}
