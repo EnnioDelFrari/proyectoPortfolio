@@ -73,6 +73,10 @@ header {
     margin: 0 50px;
 }
 
+.ocultarEsc {
+    display: none;
+}
+
 }
 nav {
     display: flex;
@@ -175,6 +179,85 @@ footer {
     flex-direction: column;
 }
 
+/*Aquí empieza el css del contenido*/
+
+.divContent1 {
+    background-color: #30475E;
+}
+
+.titulo1 {
+    color: #F04E4F;
+    margin: 0;
+    padding: 40px 0px 0px 40px;
+    font-size: 57.4px;
+    font-family: Sanchez Regular;
+}
+
+.texto {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: BarlowSemiCondensed Regular;
+    margin:0;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.subtitulo {
+    color: #F04E4F;
+    padding-left: 40px;
+    font-size: 28px;
+    flex: 1;
+    font-family: YanoneKaffeesatz;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.divContent2 {
+    background-color: #30475E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.contacto {
+    width: 150px;
+    height: 150px;
+    background-color: #222933;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.whatsapp {
+    width: 100px;
+    height: 100px;
+}
+
+.correo {
+    width: 110px;
+    height: 110px;
+}
+
+.instagram {
+    width: 110px;
+    height: 110px;
+}
+
+.facebook {
+    width: 110px;
+    height: 110px;
+}
+
+.contenedorfinal {
+    height: 50px;
+}
+
+/*Aquí termina el css del contenido*/
+
 @media screen and (max-width:576px) {
     header {
         justify-content: space-between;
@@ -271,5 +354,26 @@ footer {
     .logoFooter {
         width: 35px;
         height: 35px;
+    }
+
+    .titulo1 {
+        font-size: 45px;
+    }
+
+    .texto {
+        font-size: 25px;
+        padding-left: 40px;
+    }
+
+    .divContent2 {
+        display: flex;
+    }
+
+    .ocultarMob {
+        display: none;
+    }
+
+    .contacto {
+        margin-left: 140px;
     }
 }

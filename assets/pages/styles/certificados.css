@@ -163,6 +163,14 @@ footer {
     margin: 0 50px;
 }
 
+.ocultarEsc {
+    display: none;
+}
+
+.certificadoMob {
+    display: none;
+}
+
 }
 nav {
     display: flex;
@@ -270,15 +278,23 @@ nav {
     flex-direction: column;
 }
 
-.design {
-    width: 400px;
-    padding-bottom: 55px;
+.certificadoWP {
+    width: 700px;
+}
+
+.contenedorWP {
+    width: 900px;
+    height: 600px;
+    background-color: #222933;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
 }
 
 .responsive {
     width: 400px;
-    height: 400px;
-    padding-left: 90px;
+    padding-left: 150px;
 }
 
 .wordpress {
@@ -501,5 +517,131 @@ nav {
     .logoFooter {
         width: 35px;
         height: 35px;
+    }
+
+    .responsive {
+        padding-left: 50px;
+        width: 300px;
+    }
+
+    .ocultarMob {
+        display: none;
+    }
+
+    .certificadoMob {
+        width: 300px;
+        padding-left: 40px;
+    }
+
+    .tituloHome {
+        font-size: 45px;
+    }
+
+    .listaContent {
+        font-size: 25px;
+    }
+
+    .github {
+        width: 100px;
+        height: 100px;
+        padding-left: 25px;
+    }
+
+    .git {
+        width: 283.33px;
+        height: 106.66px;
+        padding-left: 20px;
+    }
+
+    .apartado2 {
+        padding-left: 30px;
+        padding-bottom: none;
+    }
+
+    .listaApartado2Mob {
+        margin-left: 70px;
+        color: #FFFFFF;
+        font-size: 28px;
+        font-family: BarlowSemiCondensed Regular;
+        display: flex;
+        flex-direction: column;
+        padding-right: 10px;
+        padding-left: 1px;
+    }
+
+    .elementorWP {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .wordpress {
+        width: 120px;
+        height: 120px;
+        padding: 0;
+        margin-left: 100px;
+    }
+    
+    .elementor {
+        width: 135px;
+        height: 135px;
+        padding-left: 50px;
+    }
+
+    .apartado1, .listaApartado1 {
+        font-size: 25px;
+    }
+
+    .divContent2 {
+        display: flex;
+    }
+
+    .woocomerce {
+        width: 131.5px;
+        height: 78.6px;
+    }
+
+    .mercadopago {
+        width: 115.2px;
+        height: 115.2px;
+        padding-left: 20px;
+    }
+
+    .andreani {
+        width: 81.3px;
+        height: 78.6px;
+        padding-left: 20px;
+    }
+
+    .paleta {
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+
+    .busqueda {
+        padding-left: 60px;
+        width: 140px;
+        height: 140px;
+    }
+
+    .buscador {
+        padding-left: 10px;
+    }
+
+    .carrito {
+        padding-left: 30px;
+    }
+
+    .casa {
+        padding-left: 10px;
+    }
+
+    .database1 {
+        padding-left: 10px;
+        padding-top: 25px;
+    }
+
+    .database2 {
+        padding-left: 20px;
     }
 }
