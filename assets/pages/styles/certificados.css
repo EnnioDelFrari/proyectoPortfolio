@@ -542,15 +542,15 @@ nav {
     }
 
     .github {
-        width: 100px;
-        height: 100px;
-        padding-left: 25px;
+        width: 90px;
+        height: 90px;
+        padding-left: 20px;
     }
 
     .git {
-        width: 283.33px;
-        height: 106.66px;
-        padding-left: 20px;
+        width: 250px;
+        height: 90px;
+        padding-left: 10px;
     }
 
     .apartado2 {
@@ -579,13 +579,13 @@ nav {
         width: 120px;
         height: 120px;
         padding: 0;
-        margin-left: 100px;
+        margin-left: 50px;
     }
     
     .elementor {
         width: 135px;
         height: 135px;
-        padding-left: 50px;
+        padding-left: 10px;
     }
 
     .apartado1, .listaApartado1 {
@@ -597,20 +597,21 @@ nav {
     }
 
     .woocomerce {
-        width: 131.5px;
-        height: 78.6px;
+        width: 100.5px;
+        height: 50.6px;
+        padding-bottom: 10px;
     }
 
     .mercadopago {
-        width: 115.2px;
-        height: 115.2px;
+        width: 90px;
+        height: 90px;
         padding-left: 20px;
     }
 
     .andreani {
         width: 81.3px;
         height: 78.6px;
-        padding-left: 20px;
+        padding-left: 10px;
     }
 
     .paleta {
@@ -620,8 +621,9 @@ nav {
 
     .busqueda {
         padding-left: 60px;
-        width: 140px;
-        height: 140px;
+        padding-bottom: 40px;
+        width: 100px;
+        height: 100px;
     }
 
     .buscador {
@@ -630,18 +632,26 @@ nav {
 
     .carrito {
         padding-left: 30px;
+        width: 150px;
+        height: 150px;
     }
 
     .casa {
         padding-left: 10px;
+        width: 150px;
+        height: 150px;
     }
 
     .database1 {
-        padding-left: 10px;
+        padding-left: 25px;
         padding-top: 25px;
+        width: 150px;
+        height: 150px;
     }
 
     .database2 {
         padding-left: 20px;
+        width: 150px;
+        height: 150px;
     }
 }
